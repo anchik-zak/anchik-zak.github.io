@@ -94,7 +94,20 @@ var arrLang = {
 		// wScroll > 1 ? $('#nav').addClass('fixed-nav') : $('#nav').removeClass('fixed-nav');
 
 		// Back To Top Appear
-		// wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
+		wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
+	});
+
+	$("#toggle").click(function() {
+		var elem = $("#toggle").text();
+		if (elem == "Ещё") {
+      //Stuff to do when btn is in the read more state
+      		$("#toggle").text("Скрыть");
+      		$("#text_full").slideDown();
+  		} else {
+      //Stuff to do when btn is in the read less state
+      		$("#toggle").text("Ещё");
+      		$("#text_full").slideUp();
+  		}
 	});
 
 	///////////////////////////

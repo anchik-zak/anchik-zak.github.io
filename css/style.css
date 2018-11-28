@@ -802,6 +802,20 @@ header {
 	Services
 \*------------------------------------*/
 
+#text_full{
+    display:none;
+}
+.btn-container{
+  margin: auto;
+  float: right;
+  height:44px;
+  width:166.23px;
+  padding-bottom: 20px;
+}
+.btn-primary{
+  float: right;
+}
+
 .service {
     position: relative;
     padding: 40px 20px 40px 70px;
