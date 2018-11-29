@@ -812,8 +812,10 @@ header {
   width:166.23px;
   padding-bottom: 20px;
 }
-.btn-primary{
+.btn-success{
+  margin-top: 70px;
   float: right;
+  border: 0.2px solid green;
 }
 
 .service {
